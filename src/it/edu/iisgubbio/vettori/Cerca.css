@@ -1,0 +1,6 @@
+.presente{
+	-fx-text-fill: green;
+}
+.non_presente{
+	-fx-text-fill: red;
+}

@@ -1,0 +1,22 @@
+.principale{
+	-fx-hgap: 10;
+	-fx-vgap: 10;
+	-fx-padding: 10;
+	-fx-background-color: #5fe0c4;
+}
+.text-field {
+	-fx-background-color: black;
+	-fx-text-fill: white;
+	-fx-border-color: white;
+	-fx-border-width: 3;
+}
+.label{
+	-fx-text-fill: black;
+}
+.button{
+	-fx-background-color: #400080;
+	-fx-text-fill: white;
+}
+.risultato{
+	-fx-font-size:20;
+}

@@ -1,0 +1,18 @@
+.principale{
+	-fx-vgap: 10;
+	-fx-padding: 10 10 10 10;
+	-fx-background-color: orange;
+}
+.label{
+	-fx-font-size:20;
+	-fx-text-fill: black;
+}
+.button{
+	-fx-background-color: black;
+	-fx-text-fill: orange;
+	-fx-max-width: 1000;
+}
+.text-field{
+	-fx-background-color: black;
+	-fx-text-fill: orange;
+}
