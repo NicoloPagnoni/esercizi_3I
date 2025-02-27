@@ -1,27 +1,24 @@
 package it.edu.iisgubbio.oggetti.fattoria;
 
-public class Prodotto{
+public class Prodotto {
 	protected String nome;
-	protected double prezzoAlChilo;
+	protected double prezzoAlKg;
 	
-	public Prodotto(String nome, double prezzoAlChilo) {
+	public Prodotto(String nome,double prezzoAlKg) {
 		super();
 		this.nome = nome;
-		this.prezzoAlChilo = prezzoAlChilo;
-		
+		this.prezzoAlKg = prezzoAlKg;
 	}
 	
 	public Prodotto() {
 		super();
 	}
-
 	@Override
 	public String toString() {
-		return "Prodotto [nome=" + nome + ", prezzoAlChilo=" + prezzoAlChilo + "]";
+		return "Prodotto [nome=" + nome + ", prezzoAlKg=" + prezzoAlKg + "]";
 	}
-	
 	public double calcolaPrezzo(double peso){
-		return peso*prezzoAlChilo;
+		return peso*prezzoAlKg;
 	}
 
 }
