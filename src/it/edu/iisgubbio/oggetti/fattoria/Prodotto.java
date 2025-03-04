@@ -15,7 +15,7 @@ public class Prodotto {
 	}
 	@Override
 	public String toString() {
-		return "Prodotto [nome=" + nome + ", prezzoAlKg=" + prezzoAlKg + "]";
+		return "Prodotto [nome=" + nome + ", prezzoAlKg=" + prezzoAlKg +"€"+ "]";
 	}
 	public double calcolaPrezzo(double peso){
 		return peso*prezzoAlKg;

@@ -17,7 +17,7 @@ public class Formaggio extends Prodotto{
 		this.dop = false;
 	}
 	public String toString() {
-		String descrizione = "il nome del prodotto è "+ nome +" il prezzo è "+ prezzoAlKg ;
+		String descrizione = "il nome del prodotto è "+ nome +" il prezzo è "+ prezzoAlKg+"€";
 		if (dop) {
 			descrizione += " è DOP ";
 		}else {
@@ -27,6 +27,12 @@ public class Formaggio extends Prodotto{
 			descrizione= descrizione +"la stagionatura è di "+ stagionatura +" mesi";
 		}
 		return descrizione;
+	}
+	public void setStagionatura(int stagionatura) {
+		this.stagionatura = stagionatura;
+	}
+	public void setDop(boolean dop) {
+		this.dop = dop;
 	}
 	
 

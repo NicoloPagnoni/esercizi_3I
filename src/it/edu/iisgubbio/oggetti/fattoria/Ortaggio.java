@@ -8,4 +8,23 @@ public class Ortaggio extends Prodotto{
 		this.biologico = biologico;
 	}
 
+	public boolean isBiologico() {
+		return biologico;
+	}
+
+	public void setBiologico(boolean biologico) {
+		this.biologico = biologico;
+	}
+
+	@Override
+	public String toString() {
+		if(biologico==true) {
+			return "Ortaggio "+nome+" costo al chilo:"+prezzoAlKg+"€"+" l'ortaggio è biologico";
+		}else {
+			return "Ortaggio "+nome+" costo al chilo:"+prezzoAlKg+"€"+" l'ortaggio non è biologico";
+		}
+		
+	}
+	
+
 }
